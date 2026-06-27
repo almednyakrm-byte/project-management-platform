@@ -1,0 +1,35 @@
+{
+  "project_name": "منصة إدارة المشاريع والتعاونيات",
+  "project_type": "project_management",
+  "color_palette": "slate-900 and indigo-500",
+  "modules": [
+    "مشاريع",
+    "تعاونيات",
+    "موارد"
+  ],
+  "pages": [
+    "dashboard",
+    "projects",
+    "collaborations",
+    "resources",
+    "index",
+    "login",
+    "register"
+  ],
+  "permissions": {
+    "guest": [
+      "index"
+    ],
+    "user": [
+      "dashboard",
+      "projects",
+      "collaborations"
+    ],
+    "admin": [
+      "dashboard",
+      "projects",
+      "collaborations",
+      "resources"
+    ]
+  }
+}
