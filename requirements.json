@@ -1,0 +1,40 @@
+{
+  "project_name": "منصة إدارة المشاريع",
+  "project_type": "project_management",
+  "color_palette": "slate-900 and indigo-500",
+  "modules": [
+    "تيم",
+    "مشاريع",
+    "مهام"
+  ],
+  "pages": [
+    "index",
+    "login",
+    "register",
+    "list_projects",
+    "project_details",
+    "create_project",
+    "create_task",
+    "list_tasks"
+  ],
+  "permissions": {
+    "guest": [
+      "login",
+      "register"
+    ],
+    "user": [
+      "index",
+      "list_projects",
+      "project_details",
+      "create_task"
+    ],
+    "admin": [
+      "index",
+      "list_projects",
+      "project_details",
+      "create_project",
+      "create_task",
+      "list_tasks"
+    ]
+  }
+}
